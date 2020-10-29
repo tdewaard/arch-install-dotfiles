@@ -29,11 +29,13 @@ CONF="
 SPECIAL="
     /etc/pacman.conf
     /etc/fstab
+    /home/tristan/.conda/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/matplotlibrc
+    /home/tristan/.ipython/profile_default/startup/mystartup.py
 "
 
 # Copy these files/folders to the repo
 echo "Copying ... "
-DEST=$(pwd)/configs
+DEST=$(dirname "$0")/configs
 for f in $HOMECONF
 do
     SOURCE=$HOME/$f
@@ -70,5 +72,5 @@ do
     else
         cp -rf $SOURCE $DEST
     fi
-    echo "$SOURCE" "------->" "$DEST"/"$f"
+    echo "$SOURCE" "------->" "$DEST"/$(basename $f)
 done

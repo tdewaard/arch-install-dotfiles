@@ -24,5 +24,11 @@
     "diffEditor.codeLens": true,
     "workbench.colorTheme": "Dracula",
     "bracket-pair-colorizer-2.showBracketsInRuler": true,
-    "bracket-pair-colorizer-2.showBracketsInGutter": true
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "terminal.integrated.shell.linux": "zsh",
+    "python.condaPath": "/opt/anaconda/bin/conda",
+    "python.pythonPath": "/home/tristan/.conda/envs/py38/bin/python",
+    "workbench.startupEditor": "newUntitledFile",
+    "python.dataScience.askForKernelRestart": false,
+    "python.dataScience.enablePlotViewer": false
 }

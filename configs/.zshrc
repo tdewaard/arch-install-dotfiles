@@ -165,6 +165,7 @@ alias cd..='cd ..'
 
 alias cat='ccat'
 alias less='cless'
+alias activate='conda activate'
 
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias upall="yay -Syyu"
