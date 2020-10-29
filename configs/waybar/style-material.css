@@ -1,0 +1,147 @@
+/*
+WAYBAR CONFIG
+@author: Tristan de Waard
+*/
+
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
+  min-height: 0;
+  font-weight: bold;
+}
+
+window#waybar {
+  background-color: transparent;
+  border-bottom: none;
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#workspaces button {
+  padding: 0.5rem 0.1rem;
+  margin: 7px 0;
+  color: #ffdbdb;
+  background: #292020;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button:hover {
+  background: rgba(130, 68, 138, 0.6);
+  color: #ffffff;
+  box-shadow: inherit;
+}
+
+#workspaces button.focused {
+  background: #eb5454;
+  color: #282a36;
+}
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}
+
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-spotify,
+#tray,
+#mode,
+#window,
+#idle_inhibitor,
+#taskbar,
+#mpd{
+  padding: 0.5rem 0.5rem;
+  margin: 7px 0px;
+  color: #ffdbdb;
+  background: #292020;
+}
+
+#clock {
+  background-color: #eb5454;
+  color: #282a36;
+  margin-right: 10px;
+}
+
+#battery {
+  margin-right: 10px;
+}
+
+#battery.charging {
+  color: #50fa7b;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+  color: #ffffff;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+
+#pulseaudio.muted {
+  background-color: #5c1d1d;
+}
+
+#temperature.critical {
+  color: #eb4d4b;
+}
+
+#tray {
+  font-size: 22px;
+}
+
+#idle_inhibitor.activated {
+  background: #eb5454;
+  color: #000;
+}
+
+#backlight {
+  margin-right: 10px;
+}
+
+#mode {
+  color: #ffa000;
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#custom-spotify {
+  color:#50fa7b;
+  font-size: 12px;
+  font-style: italic;
+}
+
+#window {
+  font-size: 12px;
+  font-style: italic;
+}

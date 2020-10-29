@@ -1,0 +1,17 @@
+# /dev/sdd3
+UUID=1c0fbf06-39b0-43ee-b8c8-67dc5100640f	/         	ext4      	rw,relatime	0 1
+
+# /dev/sdd1
+UUID=9505-FD72      	/boot/EFI 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sdd2
+UUID=581a30af-58d2-4f60-b69d-cf79afad8c8c	none      	swap      	defaults  	0 0
+
+# /dev/sdb1
+UUID=DCD07A94D07A751C                 /mnt/hdd_klein    ntfs-3g    nls=iso8859-1,permissions,users,auto,exec,umask=000,noatime 0 0
+
+# /dev/sdc2
+UUID=80D23CACD23CA7F4                 /mnt/hdd_groot    ntfs-3g    nls=iso8859-1,permissions,users,auto,exec,umask=000,noatime 0 0
+
+# /dev/sda3
+UUID=3E0454350453EE81                 /mnt/ssd_win      ntfs-3g    nls=iso8859-1,permissions,users,auto,exec,umask=000,noatime 0 0

@@ -1,0 +1,7 @@
+[user]
+	email = tdewaard@github.com
+	name = tdewaard
+[pull]
+	rebase = false
+[core]
+	editor = vim

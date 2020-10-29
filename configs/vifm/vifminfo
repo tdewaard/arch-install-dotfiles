@@ -1,0 +1,623 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'b
+	/home/trist/bin/
+	..
+1597156261
+'c
+	/home/trist/.config
+	..
+1597156261
+'g
+	/home/trist/git
+	..
+1597156261
+'h
+	/home/trist/
+	..
+1597156261
+'u
+	/home/trist/TU_OneDrive/UNI/MASTER
+	..
+1597156261
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/trist/.local
+	share
+2
+d/home/trist
+	.local
+9
+d/home
+	trist
+1
+d/
+	usr
+17
+d/usr
+	share
+8
+d/usr/share
+	icons
+39
+d/usr/share/icons
+	default
+9
+d/usr/share/icons/default
+	index.theme
+1
+d/usr/share/icons
+	Vimix-white-cursors
+8
+d/usr/share/icons/Vimix-white-cursors
+	..
+0
+d/usr/share/icons
+	Vimix-cursors
+7
+d/usr/share/icons/Vimix-cursors
+	index.theme
+2
+d/usr/share/icons
+	HighContrast
+6
+d/usr/share/icons/HighContrast
+	..
+0
+d/usr/share/icons
+	Adwaita
+1
+d/usr/share/icons/Adwaita
+	64x64
+7
+d/usr/share/icons
+	Adwaita
+1
+d/usr/share
+	gnome-system-monitor
+6
+d/home/trist/git
+	vimix-icon-theme
+10
+d/home/trist/git/vimix-icon-theme
+	install.sh
+9
+d/home/trist/.config
+	mako
+23
+d/home/trist/.config/mako
+	config.ini
+1
+d/home/trist/.config/waybar
+	style-material.css
+3
+d/home/trist/.config
+	neofetch
+26
+d/home/trist/.config/neofetch
+	config.conf
+1
+d/home/trist/.config
+	waybar
+14
+d/home/trist/.config/waybar
+	scripts
+1
+d/home/trist/.config/waybar/scripts
+	launch.sh
+1
+d/home/trist/.config/waybar
+	scripts
+1
+d/home/trist/.config
+	mako
+4
+d/home/trist/.config/mako
+	launch.sh
+2
+d/home/trist
+	Music
+21
+d/home/trist/.config
+	waybar
+34
+d/home/trist/.config/waybar
+	scripts
+1
+d/home/trist/.config/waybar/scripts
+	launch.sh
+1
+d/home/trist/.config/waybar
+	scripts
+1
+d/home/trist/.config
+	gedit
+9
+d/home/trist
+	.vim
+17
+d/home/trist/.vim
+	plugged
+2
+d/home/trist/.vim/plugged
+	gruvbox
+2
+d/home/trist/.vim/plugged/gruvbox
+	colors
+3
+d/home/trist/.vim/plugged/gruvbox/colors
+	gruvbox.vim
+1
+d/home/trist/.vim/plugged/gruvbox
+	autoload
+2
+d/home/trist/.vim/plugged/gruvbox/autoload
+	airline
+1
+d/home/trist/.vim/plugged/gruvbox/autoload/airline
+	themes
+1
+d/home/trist/.vim/plugged/gruvbox/autoload/airline/themes
+	gruvbox.vim
+1
+d/home/trist/.vim/plugged/gruvbox/autoload/airline
+	themes
+1
+d/home/trist/.vim/plugged/gruvbox/autoload
+	airline
+1
+d/home/trist/.vim/plugged/gruvbox
+	gruvbox_256palette_osx.sh
+7
+d/home/trist/.vim/plugged
+	vim-airline-themes
+7
+d/home/trist/.vim/plugged/vim-airline-themes
+	plugin
+5
+d/home/trist/.vim/plugged/vim-airline-themes/plugin
+	airline-themes.vim
+1
+d/home/trist/.vim/plugged/vim-airline-themes
+	autoload
+3
+d/home/trist/.vim/plugged/vim-airline-themes/autoload
+	airline
+1
+d/home/trist/.vim/plugged/vim-airline-themes/autoload/airline
+	themes
+1
+d/home/trist/.vim/plugged/vim-airline-themes/autoload/airline/themes
+	alduin.vim
+1
+d/home/trist/.vim/plugged/vim-airline-themes/autoload/airline
+	themes
+1
+d/home/trist/.vim/plugged/vim-airline-themes/autoload
+	airline
+1
+d/home/trist/.vim/plugged/vim-airline-themes
+	plugin
+5
+d/home/trist/.vim/plugged
+	vim-snazzy
+11
+d/home/trist/.vim/plugged/vim-snazzy
+	images
+4
+d/home/trist/.vim/plugged/vim-snazzy/images
+	snazzy-php.jpg
+4
+d/home/trist/.vim/plugged/vim-snazzy
+	images
+4
+d/home/trist/.vim/plugged
+	gruvbox
+2
+d/home/trist/.vim/plugged/gruvbox
+	colors
+3
+d/home/trist/.vim/plugged/gruvbox/colors
+	gruvbox.vim
+1
+d/home/trist/.vim/plugged/gruvbox
+	README.md
+5
+d/home/trist/.config
+	vifm
+34
+d/home/trist/.config/vifm
+	vifmimgpdfpage
+5
+d/home/trist/.config
+	vifm
+34
+d/home/trist
+	TU_OneDrive
+25
+d/home/trist/TU_OneDrive
+	GIT
+6
+d/home/trist/TU_OneDrive/GIT
+	myPythonFiles
+1
+d/home/trist/TU_OneDrive/GIT/myPythonFiles
+	analyse.py
+10
+d/home/trist/TU_OneDrive/GIT
+	myPythonFiles
+1
+d/home/trist/TU_OneDrive
+	UNI
+9
+d/home/trist/TU_OneDrive/UNI
+	MASTER
+4
+d/home/trist/TU_OneDrive/UNI/MASTER
+	AFSTUDEREN
+1
+d/home/trist/TU_OneDrive/UNI/MASTER/AFSTUDEREN
+	Decimate
+2
+d/home/trist/TU_OneDrive/UNI/MASTER/AFSTUDEREN/Decimate
+	Network
+7
+d/home/trist/TU_OneDrive/UNI/MASTER/AFSTUDEREN/Decimate/Network
+	include
+1
+d/home/trist/TU_OneDrive/UNI/MASTER/AFSTUDEREN/Decimate/Network/include
+	Network.h
+2
+d/home/trist/TU_OneDrive/UNI/MASTER/AFSTUDEREN/Decimate/Network
+	include
+1
+d/home/trist/TU_OneDrive/UNI/MASTER/AFSTUDEREN/Decimate
+	Network
+7
+d/home/trist/TU_OneDrive/UNI/MASTER/AFSTUDEREN
+	Decimate
+2
+d/home/trist/TU_OneDrive/UNI/MASTER/AFSTUDEREN/Decimate
+	Network
+7
+d/home/trist/TU_OneDrive/UNI/MASTER/AFSTUDEREN
+	pumma
+14
+d/home/trist/TU_OneDrive/UNI/MASTER
+	ICMS
+2
+d/home/trist/TU_OneDrive/UNI
+	MASTER
+4
+d/home/trist/TU_OneDrive
+	UNI
+9
+d/home/trist/git
+	grub2-themes
+5
+d/home/trist/git/grub2-themes
+	install.sh
+10
+d/home/trist/.config
+	syncthing-gtk
+13
+d/home/trist
+	.vim
+14
+d/home/trist/.vim
+	plugged
+2
+d/home/trist/.vim/plugged
+	gruvbox
+2
+d/home/trist/.vim/plugged/gruvbox
+	colors
+3
+d/home/trist/.vim/plugged/gruvbox/colors
+	gruvbox.vim
+1
+d/home/trist/.config
+	mako
+23
+d/home/trist/.config/mako
+	config.ini
+1
+d
+
+# Right window history (oldest to newest):
+D/home/trist/.local/share/icons/Vimix/24
+	animations
+2
+D/home/trist/.local/share/icons/Vimix/24/animations
+	..
+0
+D/home/trist/.local/share/icons/Vimix/24
+	animations
+2
+D/home/trist/.local/share/icons/Vimix/24/animations
+	nm-stage01-connecting01.svg
+1
+D/home/trist/.config/waybar
+	config.json
+1
+D/home/trist/.config/sway
+	scripts
+1
+D/home/trist/.config/sway/scripts
+	swayexit.sh
+1
+D/home/trist/.config/vifm
+	vifmrc
+7
+D/home/trist
+	git
+10
+D/home/trist/git
+	vifmimg
+5
+D/home/trist/git/vifmimg
+	..
+0
+D/home/trist/git
+	arch-gnome-sway
+2
+D/home/trist/git/arch-gnome-sway
+	configs
+2
+D/home/trist/git/arch-gnome-sway/configs
+	vifm
+3
+D/home/trist/git/arch-gnome-sway
+	configs
+2
+D/home/trist/git
+	arch-gnome-sway
+2
+D/home/trist
+	.empty
+4
+D/home/trist/.config
+	spotify
+18
+D/home/trist
+	Music
+16
+D/home/trist/.config
+	kitty
+14
+D/home/trist/.config/kitty
+	kitty.conf
+1
+D/home/trist/.config
+	autostart
+3
+D/home/trist/.config/autostart
+	..
+0
+D/home/trist/.config
+	dconf
+4
+D/home/trist/.config/dconf
+	..
+0
+D/home/trist/.config
+	gedit
+6
+D/home/trist/.config/gedit
+	..
+0
+D/home/trist/.config
+	glib-2.0
+7
+D/home/trist/.config/glib-2.0
+	..
+0
+D/home/trist/.config
+	gnome-boxes
+8
+D/home/trist/.config/gnome-boxes
+	..
+0
+D/home/trist/.config
+	gnome-session
+9
+D/home/trist/.config/gnome-session
+	..
+0
+D/home/trist/.config
+	neofetch
+16
+D/home/trist/.config/neofetch
+	config.conf
+1
+D/home/trist/.config
+	kitty
+14
+D/home/trist/.config/kitty
+	kitty.conf
+1
+D/home/trist/.config
+	sway
+20
+D/home/trist/.config/sway
+	scripts
+1
+D/home/trist/.config
+	gnome-session
+9
+D/etc/xdg/waybar
+	config
+1
+D/home/trist/git
+	arch-gnome-sway
+2
+D/home/trist/git/arch-gnome-sway
+	300-install-personal-apps.sh
+9
+D/home/trist/git
+	arch-gnome-sway
+2
+D/home/trist
+	Desktop
+6
+D/home/trist/.config
+	sway
+15
+D/home/trist/.config/sway
+	scripts
+1
+D/home/trist/.config/sway/scripts
+	myswaylock.sh
+1
+D/home/trist/.config/sway
+	scripts
+1
+D/home/trist/.config
+	sway
+23
+D/home/trist/git
+	arch-gnome-sway
+2
+D/home/trist/git/arch-gnome-sway
+	.empty
+1
+D/home/trist/git/arch-gnome-sway/.empty
+	..
+0
+D/home/trist/git/arch-gnome-sway
+	.git
+2
+D/home/trist/.config
+	vifm
+26
+D/home/trist/.config/vifm
+	vifmrc
+7
+D/home/trist/git
+	arch-gnome-sway
+2
+D/home/trist/git/arch-gnome-sway
+	900-install-themes-plugins.sh
+10
+D/home/trist/git
+	grub2-themes
+4
+D/home/trist/git/grub2-themes
+	install.sh
+10
+D/home/trist/git
+	grub2-themes
+4
+D/home/trist
+	git
+28
+D/home/trist/git
+	arch-gnome-sway
+2
+D/home/trist/git/arch-gnome-sway
+	900-install-themes-plugins.sh
+10
+D/home/trist/.config
+	vifm
+32
+D/home/trist/.config/vifm
+	vifmrc
+7
+D/home/trist/.config
+	vifm
+32
+D/home/trist/.config/vifm
+	scripts
+2
+D/home/trist/.config/vifm/scripts
+	..
+0
+D/home/trist/.local/share/icons
+	Vimix
+1
+D/home/trist/.local/share/icons/Vimix
+	..
+0
+D/home/trist/.local/share/icons
+	Vimix
+1
+D/home/trist/.local/share
+	icons
+16
+D/home/trist/.local
+	share
+2
+D
+
+# Command line history (oldest to newest):
+:touch spotify.sh
+:touch launch.sh
+:rename config
+:rename config.json
+:wq
+:mkdir scripts
+:rename swayexit.sh
+:chmox +x
+:chmod +X
+:w
+:mv
+:touch settings.ini
+:Q
+:cd /etc/xdg/waybar/
+:cd /etc/sway/
+:cd /home/trist/Pictures
+:touch myswaylock.sh
+:empty
+:!killall waybar
+:!./%f
+:mkdir mako
+:touch config
+:rename config.ini
+:cd ~/.local/share/icons/
+:touch config-material.json
+:touch style-material.json
+:shell
+:rename
+:chmod +x
+:!code %f
+:q
+
+# Search history (oldest to newest):
+/ico
+/swa
+/icon
+/bib
+/mak
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
