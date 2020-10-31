@@ -50,6 +50,8 @@ _installMany() {
         echo "Packages install performed:" 
         echo "${ToInstall[@]}"
     fi
+    unset NotInstalled
+    unset ToInstall
 }
 
 _gitInstall() {

@@ -147,6 +147,7 @@ for_window [class="Code"] move to workspace number $ws2
 for_window [class="jetbrains-pycharm"] move to workspace $ws2
 assign [class="Thunderbird"] $ws9
 assign [class="Spotify"] &ws8
+for_window [class="Spotify"] move to workspace $ws8
 
 # Assign floating to some apps
 for_window [class="^Gnome-font-viewer$"] floating enable
@@ -164,16 +165,17 @@ for_window [window_role="setup"] floating enable
 for_window [title="VMD Main"] floating enable
 for_window [title="VMD 1.9.4a48 OpenGL Display"] floating enable
 for_window [title="Graphical Representations"] floating enable
+for_window [class="Microsoft Teams - Preview"] floating disable
 
 # Application shortcuts
 bindsym $mod+shift+d exec --no-startup-id rofi -show run -config ~/.config/rofi/config.rasi 
 bindsym $mod+shift+o exec --no-startup-id code
 bindsym $mod+shift+Return exec --no-startup-id kitty -e ranger
 bindsym $mod+shift+b exec --no-startup-id firefox-nightly
-bindsym print exec --no-startup-id gnome-screenshot -c
-bindsym control+print exec --no-startup-id gnome-screenshot
-bindsym control+shift+print exec --no-startup-id gnome-screenshot -a
-
+    # Screenshots
+bindsym Print exec --no-startup-id flameshot full -c
+bindsym $mod+Print exec --no-startup-id flameshot full -c -p ~/Pictures
+bindsym $mod+Shift+Print exec --no-startup-id flameshot gui
 
 # Startup applications
 exec --no-startup-id feh --bg-fill /mnt/hdd_groot/OneDriveTUE/Background/flume-red-mountains.jpg &

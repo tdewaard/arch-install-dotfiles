@@ -1,7 +1,7 @@
 #!/bin/sh
 
 lock () {
-    i3lock-fancy
+    i3lock-fancy -f "mononoki-Regular-Nerd-Font-Complete"
 }
 
 case "$1" in

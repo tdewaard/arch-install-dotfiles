@@ -87,7 +87,7 @@ else
 fi
 
 #### RANGER ####
-_installMany "imagemagick ranger"
+_installMany "imagemagick ranger python-pillow atool elinks ffmpegthumbnailer highlight libcaca lynx mediainfo odt2txt perl-image-exiftool poppler python-chardet"
 if [[ $(_isInstalled "i3-gaps") ]]; then
     _install "feh"
 else
@@ -105,7 +105,7 @@ _installMany "syncthing"
 read -p "Configure syncthing start on boot ? [y/n] : " syncstart
 if [[ "$syncstart" == "y" ]]; then
     _gitInstall "syncthing" "syncthing"
-    sudo cp ~/git/syncthing/etc/linux-systemd/system/syncthing@.service /etc/systemd/system 
+    sudo cp ~/git/syncthing/etc/linux-systemd/system/syncthing@.service /etc/systemd/system
     systemctl enable syncthing@$(whoami).service
     systemctl start syncthing@$(whoami).service
 fi
@@ -154,7 +154,7 @@ _install "hwinfo"
 
 ### Screenshots ####
 if [[ $(_isInstalled "i3-gaps") ]]; then
-    _install "scrot"
+    _install "flameshot"
 else
     _installMany "grim slurp grimshot"
 fi
