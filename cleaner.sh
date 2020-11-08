@@ -21,7 +21,7 @@ paccache -r
 yay -Sc --noconfirm --needed
 
 # Delete cache in home
-rm -rf ~/.cache/*
+sudo rm -rf ~/.cache/*
 
 # Detect duplicate dirs/files/symlinks etc.
 _install "rmlint"

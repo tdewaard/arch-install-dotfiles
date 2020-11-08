@@ -50,7 +50,7 @@ Target = pacman-mirrorlist
 Description = Updating pacman-mirrorlist with reflector and removing pacnew...
 When = PostTransaction
 Depends = reflector
-Exec = /bin/sh -c "--latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist; rm -f /etc/pacman.d/mirrorlist.pacnew"
+Exec = /bin/sh -c "reflector --latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist; sudo rm -f /etc/pacman.d/mirrorlist.pacnew"
 EOF
 	echo "Done"
 fi
@@ -69,7 +69,7 @@ if [[ "${nvidia}" == "y" ]]; then
     pacman -S nvidia nvidia-lts
     echo "Creating hook for correct nvidia driver upgrades..."
     touch /etc/pacman.d/hooks/nvidia.hook
-    tee /etc/pacman.d/hooks/nvidia.hook <<EOF
+    tee /etc/pacman.d/hooks/nvidia.hook <<"EOF"
 [Trigger]
 Operation=Install
 Operation=Upgrade
@@ -86,7 +86,7 @@ NeedsTargets
 Exec=/bin/sh -c 'while read -r trg; do case $trg in linux) exit 0; esac; done; /usr/bin/mkinitcpio -P'
 EOF
     touch /etc/pacman.d/hooks/nvidia-lts.hook
-    tee /etc/pacman.d/hooks/nvidia-lts.hook <<EOF
+    tee /etc/pacman.d/hooks/nvidia-lts.hook <<"EOF"
 [Trigger]
 Operation=Install
 Operation=Upgrade

@@ -31,16 +31,11 @@ if [[ "$grubtheme" == "y" ]]; then
     echo "[Use grub-customizer to select the theme.]"
 fi
 
-read -p "Install cursor themes [y/n] ? : " cursors
-if [[ "$cursors" == "y" ]]; then
-    _install "bibata-cursor-theme"
+read -p "Install GTK/Gnome/Icon/Cursor themes [y/n] ? : " themes
+if [[ "$themes" == "y" ]]; then
+    _installMany "gtk-engine-murrine gtk-engines bibata-cursor-theme"
+    _gitInstall "dracula" "gnome-terminal"
     _gitInstall "vinceliuice" "Vimix-cursors"
-fi
-
-
-read -p "Install GTK themes [y/n] ? : " gtk
-if [[ "$gtk" == "y" ]]; then
-    _installMany "gtk-engine-murrine gtk-engines"
     _gitInstall "vinceliuice" "vimix-gtk-themes"
     _gitInstall "vinceliuice" "vimix-icon-theme"
 fi

@@ -6,27 +6,16 @@ Some functions to be used in my scripts.
 
 _isInstalled() {
     package="$1"
-    check="$(sudo pacman -Qs --color always "${package}" | grep "local" | grep "${package} ")"
-    if [ -n "${check}" ] ; then
+    if [ "$(sudo pacman -Qs --color always "${package}" | grep "local" | grep "${package} ")" ]; then
+        echo 1
+    else
         echo 0
-        return
-    fi;
-    echo 1
-    return
+    fi
 }
 
 _install() {
-    package="$1";
-
-    # If the package IS installed:
-    if [[ $(_isInstalled "${package}") == 0 ]]; then
-        return
-    fi
-
-    # If the package is NOT installed:
-    if [[ $(_isInstalled "${package}") == 1 ]]; then
-        sudo pacman -S "${package}" --noconfirm --needed || yay -S "${package}"
-    fi
+    echo "$@"
+    sudo pacman -S "$@" --needed || yay -S "$@" --needed
 }
 
 _installMany() {
@@ -43,15 +32,13 @@ _installMany() {
             continue;
         fi;
     done;
-    yay -S "${toInstall[@]}"
+    yay -S "${toInstall[@]}" --needed
     echo "Packages install skipped:" 
     echo "${NotInstalled[@]}"
     if [[ "${ToInstall[@]}" != "" ]]; then
         echo "Packages install performed:" 
         echo "${ToInstall[@]}"
     fi
-    unset NotInstalled
-    unset ToInstall
 }
 
 _gitInstall() {
