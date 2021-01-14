@@ -97,8 +97,15 @@ fi
 #### VIM ####
 _install "gvim"
 
-### Mail ####
+#### DOOM Emacs ####
+_install emacs ripgrep fd
+_gitInstall "hlissner" "doom-emacs" "${HOME}/.emacs.d"
+
+#### Mail ####
 _installMany "thunderbird birdtray"
+
+#### Media ####
+_install vlc
 
 #### Syncthing #####
 _installMany "syncthing"
@@ -202,6 +209,12 @@ EOF
 else
     _install "gammastep"
 fi
+
+#### Mendeley ####
+_install mendeley-reference-manager mendeleydesktop-bundled
+
+#### LaTeX missing dependencies ####
+_install perl-log-log4perl perl-file-homedir perl-log-dispatch perl-namespace-autoclean perl-specio perl-eval-closure perl-params-validationcompiler perl-yaml-tiny perl-unicode-linebreak
 
 #### Some extra fonts ####
 _installMany "ttf-ubuntu-font-family ttf-font-awesome ttf-cmu-bright ttf-cmu-concrete ttf-cmu-sans-serif ttf-cmu-serif"

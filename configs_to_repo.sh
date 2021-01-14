@@ -33,6 +33,9 @@ CONF="
     $HOME/.ipython/profile_default/startup/mystartup.py
     /etc/pacman.conf
     /etc/fstab
+    /etc/systemd/journald.conf
+    /etc/X11/xorg.conf.d/00-keyboard.conf
+    /etc/X11/xorg.conf.d/10-mouse.conf
 "
 copy() {
     CONFS=$@

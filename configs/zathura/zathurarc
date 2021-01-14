@@ -19,19 +19,19 @@ set pages-per-row 1
 
 #zoom settings
 set zoom-min 10
-set guioptions ""
+set guioptions "shv"
 
 # zathurarc-dark-theme
 
 set font "mononoki Nerd Font 12"
-set default-bg "#0a0a0a" 
-set default-fg "#ff0000"
+set default-fg "#282a36"
+set default-bg "#f8f8f2" 
 
-set statusbar-fg "#cbcbcb" 
-set statusbar-bg "#0a0a0a" 
+set statusbar-fg "#282a36" 
+set statusbar-bg "#f8f8f2" 
 
-set inputbar-bg "#0a0a0a" 
-set inputbar-fg "#cbcbcb" 
+set inputbar-fg "#282a36"
+set inputbar-bg "#f8f8f2"
 
 set notification-error-bg "#AC4142" 
 set notification-error-fg "#151515" 

@@ -38,7 +38,7 @@ if [[ "$deswitch" == "y" ]]; then
     if [[ "$de" == "wayland" ]]; then
         _installMany "sway swaylock waybar wl-clipboard swayidle xorg-server-xwayland wofi mako"
     else
-        _installMany "libinput i3-gaps-rounded-git polybar i3status i3lock-fancy-git rofi xclip picom dunst xorg-xinput"
+        _installMany "libinput i3-gaps-rounded-git polybar i3status i3lock-fancy-git rofi xclip picom-jonaburg-git dunst xorg-xinput"
     fi
     sudo systemctl enable gdm.service
 fi

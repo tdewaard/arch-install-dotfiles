@@ -38,9 +38,9 @@ export VISUAL="$(if [[ $DESKTOP_SESSION == $WM ]]; then \
              fi)"
 
 # Xcursor environment variables
-export XCURSOR_PATH=/usr/share/icons:${HOME}/.local/share/icons
-export XCURSOR_THEME=Bibata-Modern-Classic
-export XCURSOR_SIZE=32
+# export XCURSOR_PATH=/usr/share/icons:${HOME}/.local/share/icons
+# export XCURSOR_THEME=Bibata-Modern-Classic
+# export XCURSOR_SIZE=24
 # Wayland environment variables
 #export MOZ_ENABLE_WAYLAND=1 
 #export KITTY_ENABLE_WAYLAND=1
@@ -49,6 +49,8 @@ export XCURSOR_SIZE=32
 #export XDG_CURRENT_DESKTOP=Unity
 # For Java-based apps on wayland
 #export _JAVA_AWT_WM_NONREPARENTING=1
+# QT version Selection
+# export QT_SELECT=4
 
 
 

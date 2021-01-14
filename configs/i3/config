@@ -143,8 +143,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10; workspace number 
 
 # Assign programs to workspaces
 for_window [class="Nightly"] move to workspace number $ws1
-for_window [class="Code"] move to workspace number $ws2
-for_window [class="jetbrains-pycharm"] move to workspace $ws2
+# for_window [class="Code"] move to workspace number $ws2
+# for_window [class="jetbrains-pycharm"] move to workspace $ws2
 assign [class="Thunderbird"] $ws9
 assign [class="Spotify"] &ws8
 for_window [class="Spotify"] move to workspace $ws8
@@ -155,7 +155,7 @@ for_window [class="Pavucontrol"] floating enable
 for_window [class="Peek"] floating enable
 for_window [title="Copying"] floating enable
 for_window [title="Deleting"] floating enable
-for_window [title="Moving"] floating enable
+# for_window [title="Moving"] floating enable
 for_window [title="^Terminator Preferences$"] floating enable
 for_window [class="matplotlib"] floating enable
 for_window [class=" "] floating enable
@@ -166,6 +166,9 @@ for_window [title="VMD Main"] floating enable
 for_window [title="VMD 1.9.4a48 OpenGL Display"] floating enable
 for_window [title="Graphical Representations"] floating enable
 for_window [class="Microsoft Teams - Preview"] floating disable
+for_window [class="Spotify"] floating disable
+for_window [class="Mendeley Reference Manager"] floating disable
+for_window [class="Mendeley Desktop"] floating disable
 
 # Application shortcuts
 bindsym $mod+shift+d exec --no-startup-id rofi -show run -config ~/.config/rofi/config.rasi 
@@ -198,7 +201,7 @@ mode "$mode_system" {
     bindsym l exec --no-startup-id ~/.config/i3/i3exit.sh logout, mode "default"
     bindsym u exec --no-startup-id ~/.config/i3/i3exit.sh suspend, mode "default"
     bindsym h exec --no-startup-id ~/.config/i3/i3exit.sh hibernate, mode "default"
-    bindsym r exec --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
+    bindsym r exec --no-startup-id ~/.config/i3/i3exit.sh reboot, mode "default"
     bindsym s exec --no-startup-id ~/.config/i3/i3exit.sh shutdown, mode "default"
 
     # back to normal: Enter or Escape
@@ -215,16 +218,16 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym j resize shrink width 5 px or 5 ppt
+        bindsym k resize grow height 5 px or 5 ppt
+        bindsym l resize shrink height 5 px or 5 ppt
+        bindsym semicolon resize grow width 5 px or 5 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -233,14 +236,29 @@ mode "resize" {
 }
 
 # Borders
-for_window [class="^.*"] border pixel 0
-gaps inner 10
+# for_window [class="^.*"] border pixel 0 # disabling window titlebars necessary for rounded corners
+for_window [floating] border pixel 0
+default_border pixel 2
+smart_borders on
+gaps inner 7
 gaps outer 0
-gaps top 30
-border_radius 5
+border_radius 2
+smart_gaps on
     # popus
 popup_during_fullscreen smart
 
+
+# Colours
+# class                 border  bground text    indicator child_border
+client.focused          #bd93f9 #285577 #FFFFFF #2E9EF4   #bd93f9
+client.focused_inactive #6272a4 #5F676A #FFFFFF #484E50   #6272a4
+client.unfocused        #282a36 #222222 #888888 #292D2E   #282a36
+client.urgent           #ff5555 #900000 #FFFFFF #900000   #ff5555
+client.placeholder      #ff79c6 #0C0C0C #FFFFFF #000000   #ff79c6
+
+client.background       #282a36 
+
 # Picom
 exec_always --no-startup-id  ~/.config/picom/launch.sh
+
 

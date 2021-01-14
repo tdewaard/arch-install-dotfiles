@@ -35,9 +35,12 @@ call plug#end()
 "" PLUGIN SETTINGS
     " Colour scheme
     colorscheme dracula
-    let g:gruvbox_italic = 1
-    let g:gruvbox_contrast_dark = 'hard'
-    let g:gruvbox_contrast_light = 'hard'
+    let g:dracula_colorterm = 0
+    
+    " colorscheme gruvbox
+    " let g:gruvbox_italic = 1
+    " let g:gruvbox_contrast_dark = 'hard'
+    " let g:gruvbox_contrast_light = 'hard'
 
     " Change indent markers
     let g:indentLine_char_list = ['|', '¦', '┆', '┊']
@@ -91,7 +94,7 @@ call plug#end()
 
 "" VIM SETTINGS
     " More colours
-    set bg=dark "for gruvbox this switches theme
+    " set bg=dark "for gruvbox this switches theme
     let base16colorspace=256
     " Allow sudo saving
     cmap w!! w !sudo tee > /dev/null %
@@ -109,6 +112,7 @@ call plug#end()
     set expandtab
     " Line numbers
     set number
+    set relativenumber
     " Be smart when using tabs
     set smarttab
     " Use system wide clipboard
@@ -119,6 +123,9 @@ call plug#end()
     vnoremap <C-p> "+gP
     " Modes need not be shown, already done in powerline
     set noshowmode
+    " Change cursor style
+    " Change line style in insert mode
+    autocmd InsertEnter,InsertLeave * set cul!
     " Enable mouse scrolling
     set mouse=nicr
     set splitbelow splitright
@@ -129,8 +136,4 @@ call plug#end()
     set noswapfile
     set path+=**
     " Colors
-    " hi LineNr ctermfg=242
-    " hi CursorLineNr ctermfg=15
-    " hi VertSplit ctermfg=8 ctermbg=0
-    " hi Statement ctermfg=3
     set t_ut="" " When BG renders incorrectly...

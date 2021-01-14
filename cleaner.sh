@@ -3,7 +3,7 @@
 # Script for cleaning up your arch install
 # @author Tristan de Waard
 
-set -e
+# set -e
 source $(dirname "$0")/funcs.sh
 
 # Remove orphaned pkg
@@ -14,17 +14,20 @@ else
 fi
 
 # Delete pacman cache
-_install "pacman-contrib"
+_install pacman-contrib
 paccache -r
 
 # Deleting yay cache
 yay -Sc --noconfirm --needed
 
-# Delete cache in home
+# Delete some caches in home
 sudo rm -rf ~/.cache/*
+sudo rm -rf ~/.config/Code/Cache/*
+sudo rm -rf ~/.config/Code/CachedData/*
+sudo rm -rf ~/.config/Microsoft/Microsoft\ Teams/Cache/*
 
 # Detect duplicate dirs/files/symlinks etc.
-_install "rmlint"
+_install rmlint
 read -p "Run rmlint ? [y/n]" rmlint
 if [[ "${rmlint}" == "y" ]]; then
 	sudo rmlint ~
@@ -33,7 +36,10 @@ fi
 
 # Visualise large dirs/files
 _install "ncdu"
-ncdu ~
+read -p "Run ncdu ? [y/n]" ncdu
+if [[ "${ncdu}" == "y" ]]; then
+    ncdu ~
+fi
 
 # Making sure journalctl logs do not exceed 50 MB
 sudo journalctl --vacuum-size=50M
