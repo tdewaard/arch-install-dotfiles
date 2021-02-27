@@ -1,8 +1,10 @@
 #### ~/.zshenv ####
 
 # Path additions
-export PATH="usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/namd/NAMD_2.14_Linux-x86_64-multicore-CUDA:$PATH"
 export PATH="/mnt/hdd_groot/OneDriveTUE/UNI/MASTER/AFSTUDEREN/adeno-python/pummatk/bin:$PATH"
+export PATH="/mnt/hdd_groot/OneDriveTUE/UNI/MASTER/AFSTUDEREN/rosetta_bin_linux_2020.08.61146_bundle/main/source/bin:$PATH"
 
 DE="gnome"
 WM="i3"

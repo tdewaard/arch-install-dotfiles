@@ -34,15 +34,12 @@
     "tabnine.experimentalAutoImports": true,
     "editor.wordWrap": "on",
     "clang-tidy.lintOnSave": false,
-    "editor.formatOnType": true,
     "C_Cpp.clang_format_style": "Visual Studio",
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "C_Cpp.experimentalFeatures": "Enabled",
-    "C_Cpp.formatting": "vcFormat",
     "editor.detectIndentation": false,
-    "C_Cpp.vcFormat.indent.withinParentheses": "alignToParenthesis",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "newLine",
@@ -62,5 +59,8 @@
     "jupyter.askForKernelRestart": false,
     "jupyter.enablePlotViewer": false,
     "jupyter.alwaysScrollOnNewCell": true,
-    "python.showStartPage": false
+    "python.showStartPage": false,
+    "C_Cpp.vcFormat.indent.preserveComments": true,
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.vcFormat.indent.accessSpecifiers": true
 }
