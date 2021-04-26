@@ -352,7 +352,7 @@ mathtext.fontset: cm  # Should be 'dejavusans' (default),
 ## https://matplotlib.org/api/axes_api.html#module-matplotlib.axes
 #axes.facecolor:     white   # axes background color
 #axes.edgecolor:     black   # axes edge color
-axes.linewidth:     1.5     # edge linewidth
+axes.linewidth:      2     # edge linewidth
 #axes.grid:          False   # display grid or not
 #axes.grid.axis:     both    # which axis the grid should apply to
 #axes.grid.which:    major   # gridlines at {major, minor, both} ticks
@@ -463,7 +463,7 @@ xtick.minor.width:   1     # minor tick width in points
 #xtick.minor.pad:     3.4     # distance to the minor tick label in points
 #xtick.color:         black   # color of the tick labels
 #xtick.labelsize:     medium  # fontsize of the tick labels
-xtick.direction:     in     # direction: {in, out, inout}
+xtick.direction:     out     # direction: {in, out, inout}
 xtick.minor.visible: True   # visibility of minor ticks on x-axis
 #xtick.major.top:     True    # draw x axis top major ticks
 #xtick.major.bottom:  True    # draw x axis bottom major ticks
@@ -483,7 +483,7 @@ ytick.minor.width:   1     # minor tick width in points
 #ytick.minor.pad:     3.4     # distance to the minor tick label in points
 #ytick.color:         black   # color of the tick labels
 #ytick.labelsize:     medium  # fontsize of the tick labels
-ytick.direction:     in     # direction: {in, out, inout}
+ytick.direction:     out     # direction: {in, out, inout}
 ytick.minor.visible: True   # visibility of minor ticks on y-axis
 #ytick.major.left:    True    # draw y axis left major ticks
 #ytick.major.right:   True    # draw y axis right major ticks
@@ -595,7 +595,7 @@ figure.autolayout: True # When True, automatically adjust subplot
 ## ***************************************************************************
 ## * ERRORBAR PLOTS                                                          *
 ## ***************************************************************************
-#errorbar.capsize: 0  # length of end cap on error bars in pixels
+errorbar.capsize: 3  # length of end cap on error bars in pixels
 
 
 ## ***************************************************************************

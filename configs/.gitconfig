@@ -1,7 +1,9 @@
 [user]
-	email = tdewaard@github.com
+	email = tdewaard@protonmail.com
 	name = tdewaard
 [pull]
 	rebase = false
 [core]
 	editor = vim
+[init]
+	defaultBranch = main

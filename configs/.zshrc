@@ -159,11 +159,15 @@ ex ()
 source ~/arch-install-dotfiles/funcs.sh
 
 
+################ RANGER_AUTOCD #######################
+
+source ~/.config/ranger/shell_automatic_cd.sh
+
 ################# ALIASES #######################
 
 alias ls='ls --color=auto'
 alias la='ls -a'
-alias ll='ls -la'
+alias ll='ls -lah'
 alias l='ls'
 alias cd..='cd ..'
 

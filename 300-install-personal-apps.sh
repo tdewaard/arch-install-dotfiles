@@ -88,6 +88,9 @@ fi
 
 #### RANGER ####
 _installMany "imagemagick ranger python-pillow atool elinks ffmpegthumbnailer highlight libcaca lynx mediainfo odt2txt perl-image-exiftool poppler python-chardet"
+# Ranger icons
+_gitInstall "alexanderjeurissen" "ranger_devicons" "${HOME}/.config/ranger/plugins/ranger_devicons"
+echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
 if [[ $(_isInstalled "i3-gaps") ]]; then
     _install "feh"
 else
@@ -168,6 +171,12 @@ fi
 
 #### Libreoffice ####
 _install "libreoffice-fresh"
+
+#### Notetaking/PDF signing #####
+_install xournalpp-git
+
+#### GitHub CLI ####
+_install github-cli
 
 #### GUI for hdmi outputs ####
 if [[ $(_isInstalled "i3-gaps") ]]; then

@@ -145,7 +145,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10; workspace number 
 for_window [class="Nightly"] move to workspace number $ws1
 # for_window [class="Code"] move to workspace number $ws2
 # for_window [class="jetbrains-pycharm"] move to workspace $ws2
-assign [class="Thunderbird"] $ws9
+assign [class="Daily"] $ws9
 assign [class="Spotify"] &ws8
 for_window [class="Spotify"] move to workspace $ws8
 
@@ -185,7 +185,7 @@ bindsym $mod+Shift+Print exec --no-startup-id flameshot gui
 # Startup applications
 exec --no-startup-id feh --bg-fill /mnt/hdd_groot/OneDriveTUE/Background/flume-red-mountains.jpg &
 exec --no-startup-id spotify
-exec --no-startup-id thunderbird
+exec --no-startup-id thunderbird-nightly
 exec --no-startup-id firefox-nightly
 exec --no-startup-id dunst
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
@@ -258,7 +258,7 @@ client.unfocused        #282a36 #222222 #888888 #292D2E   #282a36
 client.urgent           #ff5555 #900000 #FFFFFF #900000   #ff5555
 client.placeholder      #ff79c6 #0C0C0C #FFFFFF #000000   #ff79c6
 
-client.background       #282a36 
+client.background       #282a36
 
 # Picom
 exec_always --no-startup-id  ~/.config/picom/launch.sh
