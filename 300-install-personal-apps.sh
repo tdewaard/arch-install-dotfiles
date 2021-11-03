@@ -105,7 +105,7 @@ _install emacs ripgrep fd
 _gitInstall "hlissner" "doom-emacs" "${HOME}/.emacs.d"
 
 #### Mail ####
-_installMany "thunderbird birdtray"
+_installMany "birdtray"
 
 #### Media ####
 _install vlc

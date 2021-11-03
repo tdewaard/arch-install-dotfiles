@@ -20,7 +20,8 @@ paccache -r
 # Deleting yay cache
 yay -Sc --noconfirm --needed
 
-# Delete some caches in home
+# Delete some caches
+sudo rm /var/cache/pacman/pkg/*
 sudo rm -rf ~/.cache/*
 sudo rm -rf ~/.config/Code/Cache/*
 sudo rm -rf ~/.config/Code/CachedData/*

@@ -1,11 +1,9 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "todo-tree.tree.showScanModeButton": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.languageServer": "Pylance",
     "editor.fontFamily": "'mononoki Nerd Font Mono'",
-    "editor.fontSize": 18,
     "editor.fontLigatures": true,
     "C_Cpp.updateChannel": "Insiders",
     "editor.renderWhitespace": "boundary",
@@ -31,6 +29,10 @@
         "<C-i>": false,
         "<C-f>": false
     },
+    "vim.statusBarColorControl": false,
+    "editor.renderWhitespace": "selection",
+    "editor.cursorStyle": "line",
+    "editor.cursorSmoothCaretAnimation": false,
     "tabnine.experimentalAutoImports": true,
     "editor.wordWrap": "on",
     "clang-tidy.lintOnSave": false,
@@ -62,5 +64,12 @@
     "python.showStartPage": false,
     "C_Cpp.vcFormat.indent.preserveComments": true,
     "C_Cpp.formatting": "vcFormat",
-    "C_Cpp.vcFormat.indent.accessSpecifiers": true
+    "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideTabs": false,
+    "zenMode.restore": true,
+    "ltex.additionalRules.enablePickyRules": true,
+    "editor.fontSize": 15,
+    "explorer.confirmDragAndDrop": false,
 }

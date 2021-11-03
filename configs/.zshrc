@@ -122,7 +122,7 @@ export LANG=en_GB.UTF-8
 
 ################# PLUGIN SETTINGS ################
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=14,bold,underline"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=12,underline"
 autoload -Uz compinit promptinit
 compinit
 promptinit
@@ -158,10 +158,13 @@ ex ()
 
 source ~/arch-install-dotfiles/funcs.sh
 
-
 ################ RANGER_AUTOCD #######################
 
 source ~/.config/ranger/shell_automatic_cd.sh
+
+################ GROMACS #######################
+
+source /usr/local/gromacs/bin/GMXRC
 
 ################# ALIASES #######################
 

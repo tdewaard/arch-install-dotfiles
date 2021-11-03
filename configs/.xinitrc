@@ -10,7 +10,7 @@ if [[ -d etc/X11/xinit/xinitrc.d ]]; then
     unset f
 fi
 
-xrandr --output DP-4 --mode 2560x1440 --rate 143.91
+xrandr --output DP-4 --mode 2560x1440 --rate 143.91 --dpi 90
 
 # Xcursor environment variables
 export XCURSOR_PATH=/usr/share/icons:${HOME}/.local/share/icons

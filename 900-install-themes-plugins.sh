@@ -33,8 +33,9 @@ fi
 
 read -p "Install GTK/Gnome/Icon/Cursor themes [y/n] ? : " themes
 if [[ "$themes" == "y" ]]; then
-    _installMany "gtk-engine-murrine gtk-engines bibata-cursor-theme"
+    _install gtk-engine-murrine gtk-engines bibata-cursor-theme
     _gitInstall "dracula" "gnome-terminal"
+    _gitInstall "dracula" "gtk"
     _gitInstall "vinceliuice" "Vimix-cursors"
     _gitInstall "vinceliuice" "vimix-gtk-themes"
     _gitInstall "vinceliuice" "vimix-icon-theme"

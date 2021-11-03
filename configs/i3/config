@@ -150,6 +150,7 @@ assign [class="Spotify"] &ws8
 for_window [class="Spotify"] move to workspace $ws8
 
 # Assign floating to some apps
+floating_minimum_size 200 x 200
 for_window [class="^Gnome-font-viewer$"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="Peek"] floating enable
@@ -162,10 +163,13 @@ for_window [class=" "] floating enable
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="^Preferences$"] floating enable
 for_window [window_role="setup"] floating enable
+for_window [title="Screen sharing toolbar"] floating enable
+for_window [window_type="notification"] floating enable
+for_window [class="Microsoft Teams - Preview"] floating disable
+for_window [title="Microsoft Teams Notification"] floating enable
 for_window [title="VMD Main"] floating enable
 for_window [title="VMD 1.9.4a48 OpenGL Display"] floating enable
 for_window [title="Graphical Representations"] floating enable
-for_window [class="Microsoft Teams - Preview"] floating disable
 for_window [class="Spotify"] floating disable
 for_window [class="Mendeley Reference Manager"] floating disable
 for_window [class="Mendeley Desktop"] floating disable
@@ -183,7 +187,7 @@ bindsym $mod+Print exec --no-startup-id flameshot full -c -p ~/Pictures
 bindsym $mod+Shift+Print exec --no-startup-id flameshot gui
 
 # Startup applications
-exec --no-startup-id feh --bg-fill /mnt/hdd_groot/OneDriveTUE/Background/flume-red-mountains.jpg &
+exec --no-startup-id feh --bg-fill /mnt/ssd_win/OneDriveTUE/Background/flume-red-mountains.jpg &
 exec --no-startup-id spotify
 exec --no-startup-id thunderbird-nightly
 exec --no-startup-id firefox-nightly

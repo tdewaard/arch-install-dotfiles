@@ -3,9 +3,8 @@
 # Path additions
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.config/vifm/scripts:$PATH"
-export PATH="$HOME/namd/NAMD_2.14_Linux-x86_64-multicore-CUDA:$PATH"
 export PATH="$HOME/pummatk/bin:$PATH"
-export PATH="/mnt/hdd_groot/OneDriveTUE/UNI/MASTER/AFSTUDEREN/pumma:$PATH"
+export PATH="/mnt/ssd_win/OneDriveTUE/UNI/MASTER/AFSTUDEREN/pumma:$PATH"
 
 DE="gnome"
 WM="i3"
