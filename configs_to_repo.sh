@@ -23,6 +23,7 @@ CONF="
     $HOME/.config/neofetch
     $HOME/.config/picom
     $HOME/.config/polybar
+    $HOME/.config/waybar
     $HOME/.config/ranger
     $HOME/.config/redshift
     $HOME/.config/rofi

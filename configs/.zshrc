@@ -89,7 +89,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages colorize sudo zsh-autosuggestions zsh-syntax-highlighting vi-mode copydir copyfile)
+plugins=(git colored-man-pages colorize sudo zsh-autosuggestions zsh-syntax-highlighting vi-mode copypath copyfile)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -212,7 +212,7 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-conda activate py39
+conda activate py310
 
 ################### P10K #########################
 

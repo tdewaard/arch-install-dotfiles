@@ -3,8 +3,7 @@
 # Path additions
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.config/vifm/scripts:$PATH"
-export PATH="$HOME/pummatk/bin:$PATH"
-export PATH="/mnt/ssd_win/OneDriveTUE/UNI/MASTER/AFSTUDEREN/pumma:$PATH"
+export PATH="$HOME/.emacs.d/bin:$PATH"
 
 DE="gnome"
 WM="i3"
